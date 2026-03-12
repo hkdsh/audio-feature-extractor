@@ -1,0 +1,15 @@
+# 音频特征提取项目依赖 (与 main_extractor / basic_features / pitch_formant / harmonic_consonant / frequency_energy_ratio 一致)
+# 使用前建议先创建 conda 环境:
+#   conda create -n audio_feature python=3.9
+#   conda activate audio_feature
+# 安装: pip install -r requirements.txt
+
+librosa
+numpy
+pandas
+scipy
+torch
+joblib
+tqdm
+pyloudnorm
+praat-parselmouth
